@@ -1,0 +1,189 @@
+body {
+  background-image: url('fundo');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.texto {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+  font-size: 90px;
+  box-shadow: ;
+}
+
+/* Estilo para o desfoque */
+#content {
+  backdrop-filter: blur(5px);
+  /* Outras propriedades de estilo para o conteúdo da página */
+}
+.container1 {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemon {
+  background-color: #beige;
+  border-radius: 20px;
+  margin: 10px;
+  -webkit-box-shadow: 1px 1px 15px -3px #000000; 
+  box-shadow: 1px 1px 15px -3px #000000;
+  text-align: center;
+  border: 2px solid white;
+}
+
+.pokemon .types {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center; 
+}
+
+.pokemon span {
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 6px;
+  font-weight: bold;
+}
+
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 220px;
+  margin: 5px;
+  background-color: #eaeaea3e;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.pokemon img {
+  width: 90px;
+  height: 90px;
+  margin-top:15px;
+}
+
+.pokemon h2 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.type {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 0px;
+  margin: 5px;
+  font-size: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.normal {
+  background-color: #a8a878;
+}
+
+.fire {
+  background-color: #f08030;
+}
+
+.water {
+  background-color: #6890f0;
+}
+
+.grass {
+  background-color: #78c850;
+}
+
+.electric {
+  background-color: #f8d030;
+}
+
+.ice {
+  background-color: #98d8d8;
+}
+
+.fighting {
+  background-color: #c03028;
+}
+
+.poison {
+  background-color: #a040a0;
+}
+
+.ground {
+  background-color: #e0c068;
+}
+
+.flying {
+  background-color: #a890f0;
+}
+
+.psychic {
+  background-color: #f85888;
+}
+
+.bug {
+  background-color: #a8b820;
+}
+
+.rock {
+  background-color: #b8a038;
+}
+
+.ghost {
+  background-color: #705898;
+}
+
+.dragon {
+  background-color: #7038f8;
+}
+
+.dark {
+  background-color: #705848;
+}
+
+.steel {
+  background-color: #b8b8d0;
+}
+
+.fairy {
+  background-color: #ee99ac;
+}
+
+/* Com isso, a div de cheats será exibida abaixo da div de tipos em cada cartão de Pokémon. */
+.cheats {
+  font-size: 9px;
+  font-style: italic;
+  margin-top: 5%;
+}
+
+/* parte da lupa */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+/*Container*/
+.container_1 {
+    overflow: hidden;
+   
+}
